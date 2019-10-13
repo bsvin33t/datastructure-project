@@ -1,13 +1,11 @@
-
-    
-	puts"**********************************\n\tWelcome to candy store\n**********************************"
+puts"**********************************\n\tWelcome to candy store\n**********************************"
 	
 	puts"\nHow many candy Brand count u Want to add :"
     brand=gets
     brand=brand.to_i
 	puts"\n"
-	brand.each do |i|
-		candystore_hash = {}
+candystore_hash = {}
+	[1..brand].each do |i|
 input = ""
 name = ""
 count = ""
