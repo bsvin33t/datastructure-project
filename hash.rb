@@ -22,3 +22,4 @@ end
 puts "Here is the content that was in the hash: "
 friendgame_hash.each do |key, value|
  puts " #{key} => #{value}"
+end
