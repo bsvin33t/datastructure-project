@@ -5,7 +5,7 @@ brand=gets
 brand=brand.to_i
 puts"\n"
 candystore_hash = {}
-[1..brand].each do
+(1..brand).each do
   input = ""
   name = ""
   count = ""
