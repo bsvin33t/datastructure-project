@@ -5,7 +5,7 @@ puts"**********************************\n\tWelcome to candy store\n*************
     brand=brand.to_i
 	puts"\n"
 candystore_hash = {}
-	[1..brand].each do |i|
+	[1..brand].each.with_index() do |i|
 input = ""
 name = ""
 count = ""
