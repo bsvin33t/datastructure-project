@@ -4,7 +4,7 @@ def tower(count,from,to,via)
     if count == 1
         
         to.unshift(from.shift)
-        puts"\n Move disk 1 from A to c\n"
+        puts"\n Move disk 1 from A to C\n"
       else
        tower(count - 1, from, via, to)
        
