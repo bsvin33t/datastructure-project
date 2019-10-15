@@ -64,3 +64,4 @@ end
 puts"\n\n\n\nyou came with #{first}"
 puts"now you have #{total}"
 puts"thank you for playing!\n\n\n"
+puts"\n End of Game :)\n\n"
