@@ -34,6 +34,6 @@ end
  
 a=candystore_hash.values
 puts"#{a}"
- @sum = 0
- @a.each_index { |i| @sum += @a[i] }
- puts"#{sum}"
+
+values_in_int = a.map { |a| a.to_i } # this line converts the string values to int
+puts "the sum is #{values_in_int.sum}"
