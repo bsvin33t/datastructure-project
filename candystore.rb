@@ -1,9 +1,7 @@
-
-
-puts"\nHow many candy flavours count u Want to add :"
-flavour=gets
-flavour=flavour.to_i
-puts"\n"
+puts "\nHow many candy flavours count u Want to add :"
+flavour = gets
+flavour = flavour.to_i
+puts "\n"
 candystore_hash = {}
 (1..flavour).each do
   input = ""
@@ -31,9 +29,8 @@ candystore_hash.each do |key, value|
 
 
 end
- 
-a=candystore_hash.values
-puts"#{a}"
- @sum = 0
- @a.each_index { |i| @sum += @a[i] }
- puts"#{sum}"
+
+a = candystore_hash.values
+puts "#{a}"
+values_in_int = a.map { |a| a.to_i }
+puts "the sum is #{values_in_int.sum}"
